@@ -6,4 +6,4 @@ class BlogSerializer(serializers.ModelSerializer):
     # reads the username of the login user.
     class Meta:
         model= Blogs
-        fields=['title','body','author']
+        fields=['id','title','body','author']
